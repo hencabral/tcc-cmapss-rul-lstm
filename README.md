@@ -1,6 +1,6 @@
 # 🔧 RUL Predictor – LSTM Residual (FD001 - C-MAPSS)
 
-Este repositório contém o protótipo funcional desenvolvido para o TCC, capaz de estimar a **Vida Útil Remanescente (RUL)** de motores turbofan do conjunto **NASA C-MAPSS (FD001)** utilizando o **modelo LSTM Residual final**.
+Este repositório contém o protótipo funcional desenvolvido para o TCC, capaz de estimar a **Vida Útil Remanescente (RUL)** de motores turbofan do conjunto **NASA C-MAPSS (FD001)** utilizando o **modelo LSTM Residual**.
 
 A aplicação é executada localmente via **Streamlit**, permitindo o envio de arquivos de sensores e a visualização das predições de forma interativa.
 
@@ -33,3 +33,7 @@ No terminal:
 
 ```bash
 pip install -r app/requirements.txt
+
+
+```bash
+streamlit run app/app.py
