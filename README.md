@@ -33,7 +33,12 @@ No terminal:
 
 ```bash
 pip install -r app/requirements.txt
+```
 
+### 2. Execute a aplicação
+
+Após instalar as dependências, inicie o servidor Streamlit com:
 
 ```bash
 streamlit run app/app.py
+```
